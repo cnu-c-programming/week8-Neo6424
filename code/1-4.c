@@ -6,8 +6,8 @@ int my_strcmp (const char *dst, const char *src){
         sum = *dst - *src;
         dst++;
         src++;
-        if (*dst != '\0'){dst--;}
-        if (*src != '\0'){src--;}
+        if (*dst == '\0'){dst--;}
+        if (*src == '\0'){src--;}
     }
     return sum;
 }
