@@ -15,7 +15,7 @@ char *my_strcat(char *dst, const char *src){
 }
 
 int main() {
-    char str1[20] = "hello";
+    char str1[20] = "Hello";
     char str2[] = "world";
 
     printf("%s\n",str1);
