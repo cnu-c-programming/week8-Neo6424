@@ -7,7 +7,7 @@ int my_strcmp (const char *dst, const char *src){
         src++;
     }
 
-    return *dst - *src;
+    return *(unsigned char *)dst - *(unsigned char *)src;
 }
 
 int main() {
