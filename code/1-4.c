@@ -2,7 +2,7 @@
 
 int my_strcmp (const char *dst, const char *src){
 
-    while(*dst != '\0' || *src != '\0'){
+    while(*dst != '\0' && *src != '\0'){
         dst++;
         src++;
     }
